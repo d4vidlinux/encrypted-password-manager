@@ -5,7 +5,7 @@ The script generate a key called "decrypt.key". Store this key in the script fol
 
 
 To use the auto password generator, leave the password field blank. It create a password with 10 characters.
-The filds are 
+The filds are:
 
 - Platform 
 - Username 
@@ -13,7 +13,7 @@ The filds are
 
 Only the Password field can stay blank.
 
-Created in tkinter GUI, this is test for front-end experience. Splited in 2 frames. Client side and tree view, no limit to store passwords.
+Created in tkinter GUI, this is a test for front-end experience. Splited in 2 frames. Client side and tree view, no limit to store passwords.
 
 
 ![interface GUI](app.png)
@@ -73,5 +73,5 @@ The script use Fernet cryptograpy. Click on 'Encrypt data' button for use it. 'D
 In Linux, the tkinter is not installed. Install with your package installer `python3-tk`.
 Test using `python3 -m tkinter`.
 
-The `main.py` is the init programm. Don't exclude or move the function files: `guifunctions.py` and `sqlfunctions.py`.
+The `main.py` is the init programm. Don't exclude or move the function files: `guifunctions.py` or `sqlfunctions.py`.
     
