@@ -25,7 +25,7 @@ class Application():
         root.maxsize(width=1080, height=600)
         alert = Label(root, text="🏆 To use the auto password generator, leave the password field blank.")
         alert.place(relx=0.1, rely=0.001)
-        Label(root, text="⚠️ Auto Password have 10 characters").place(relx=0.1, rely=0.05)
+        Label(root, text="⚠️ Auto Password have 11 characters").place(relx=0.1, rely=0.05)
 
     def frame(self):
         ## Frame Above
