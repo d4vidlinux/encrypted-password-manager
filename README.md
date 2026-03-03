@@ -74,4 +74,9 @@ In Linux, the tkinter is not installed. Install with your package installer `pyt
 Test using `python3 -m tkinter`.
 
 The `main.py` is the init programm. Don't exclude or move the function files: `guifunctions.py` or `sqlfunctions.py`.
+
+This project is intended for educational and personal use only.
+Although it uses encryption, it has not been professionally audited and should not be considered production-ready.
+
+If an attacker gains access to your computer, they may obtain both the encrypted database and the key file. For this reason, this tool should not be used to store highly sensitive information.
     
