@@ -4,7 +4,7 @@ This is a simple local CRUD script in GUI and CLI version written in Python.
 The script generate a key called "decrypt.key". Store this key in the script folder for decrypt your passwords, if you lost it, the password will be not decrypted. All account will store in the database.
 
 
-To use the auto password generator, leave the password field blank. It create a password with 10 characters.
+To use the auto password generator, leave the password field blank. It create a password with 11 characters.
 The filds are:
 
 - Platform 
